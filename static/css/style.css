@@ -1,0 +1,70 @@
+#box {
+    width: 520px;
+    margin: auto;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    background-image: url(background.jpg);
+
+}
+
+.row {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.tile {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    font-size: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: wheat;
+    border-color: goldenrod;
+    
+}
+
+.tile:hover {
+    background-color: rgb(222, 194, 123);
+    
+}
+
+#info {
+    width: 520px;
+    margin: auto;
+
+}
+
+.text {
+    font-size: 32px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.fbtns {
+    width: 85px;
+    height: 56px;
+    border-radius: 20px;
+    background-color: silver;
+    border-color: goldenrod;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: oblique;
+    font-style: italic;
+    transition-duration: 0.4s;
+
+}
+.fbtns:hover {
+    background-color: rgb(223, 188, 98);
+
+}
+
+body {
+    background-image: url(pagebg.jpg);
+}

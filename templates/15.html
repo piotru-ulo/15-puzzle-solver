@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>15</title>
+        <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="static/js/15.js"></script>
+        <script src="static/js/solve.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+    <body onload = "shuffle()">
+        <div id = "info">
+            <table>
+                <tr>
+                    <td style="width: 165px;"><h1 id="moves" class = "text">Moves: 0</h1></td>
+                    <td style="width: 165px;"><h1 id="timer" class = "text">Time: 0s</h1></td>
+                    <td><button id = "solve" class = "fbtns">solve</button></td>
+                    <td><button id = "reload" class = "fbtns" onclick="window.location.reload();">Play again</button></td>
+                </tr>
+            </table>
+            
+            
+        </div>
+        <div id = "box">
+            <div class = "row">
+                <button class="tile" id="t1">1</button>
+                <button class="tile" id="t2">2</button>
+                <button class="tile" id="t3">3</button>
+                <button class="tile" id="t4">4</button>
+
+            </div>
+            <div class = "row">
+                <button class="tile" id="t5">5</button>
+                <button class="tile" id="t6">6</button>
+                <button class="tile" id="t7">7</button>
+                <button class="tile" id="t8">8</button>
+
+            </div>
+            <div class = "row">
+                <button class="tile" id="t9">9</button>
+                <button class="tile" id="t10">10</button>
+                <button class="tile" id="t11">11</button>
+                <button class="tile" id="t12">12</button>
+
+            </div>
+            <div class = "row">
+                <button class="tile" id="t13">13</button>
+                <button class="tile" id="t14">14</button>
+                <button class="tile" id="t15">15</button>
+                <button class="tile" id="t16">_</button>
+
+            </div>
+        </div>
+        
+    </body>
+
+</html>
